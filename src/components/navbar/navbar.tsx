@@ -19,6 +19,9 @@ function Navbar() {
             <Link to="/product">
               <button className="btns">Product</button>
             </Link>
+            <Link to="/task">
+              <button className="btns">task</button>
+            </Link>
           </div>
         </div>
       </div>

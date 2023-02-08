@@ -8,7 +8,7 @@ import Home from "../view/home";
 import About from "../view/about";
 import Product from "../view/product";
 import Navbar from "../components/navbar/navbar";
-
+import Task from '../view/task';
 
 function Routers() {
   return (
@@ -27,6 +27,9 @@ function Routers() {
         </Route>
         <Route path="/Product">
           <Product />
+        </Route>
+        <Route path="/Task">
+          <Task />
         </Route>
       </Switch>
   </Router>

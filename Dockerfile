@@ -8,4 +8,4 @@ RUN npm install
 
 COPY . .
 
-CMD ["npm", "start", ";", "npm","run","json-server"]
+CMD ["npm", "start"]

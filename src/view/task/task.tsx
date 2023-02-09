@@ -1,13 +1,14 @@
 import React, { useEffect, useReducer, useRef, useState } from "react";
-import { getProductData } from "./task.service";
+// import { getProductData } from "./task.service";
 import { Reducer } from "../../utils/reducer";
 import { reducerTypes } from "../../utils/action.type";
 import Sidebar from "./sidebar";
+import CategorieData from '../../utils/database/db.json';
 import ModalWrapper from "../../utils/modelwrapper";
 import Categories from "./categories";
 
 const INITIAL_STATE = {
-  loading: false,
+  loading: true,
   data: [],
   error: false,
 };
@@ -39,10 +40,10 @@ const Task: React.FC = () => {
         payload: [],
       });
 
-      const response = await getProductData();
+      // const response = await getProductData();
       dispatch({
         type: reducerTypes.FETCH_COMPLETE,
-        payload: response?.data,
+        payload: CategorieData.taskData,
       });
     } catch (error) {
       dispatch({
@@ -54,16 +55,15 @@ const Task: React.FC = () => {
   useEffect(() => {
     getProductsData();  
   }, []);
-  console.log('selectedProducts', selectedProducts);
   
   return (
     <>
-      {productsModel()}
       <h2>Task</h2>
-      {state.loading === true ? (
+      { state.loading && state.data.length === 0? (
         <h2> Loading....</h2>
-      ) : (
-        <>
+        ) : (
+          <>
+          {productsModel()}
           <Sidebar categorieData={state.data} setProducts={setProducts} selectedProducts={selectedProducts}/>
           <Categories categorieData={state.data} modelRef={modelRef} setProducts={setProducts} selectedProducts={selectedProducts}/>
         </>

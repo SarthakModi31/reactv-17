@@ -5,11 +5,3 @@ services:
         restart: always
         ports:
             - 3000:3000
-        depends_on:
-          - json-server
-
-    json-server:
-        build: ./
-        restart: always
-        ports: 
-          - 3004:3004

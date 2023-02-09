@@ -1,0 +1,163 @@
+{
+  "taskData": [
+    {
+      "imageUrl": "",
+      "name": "Aesthetics",
+      "products": [],
+      "subcategories": [
+        {
+          "description": "",
+          "id": 27, 
+          "imageUrl": "",
+          "name": "Additional Fan Case",
+          "products": [
+            {
+              "id": 119,
+              "name": "1x Arctic P12 PWM PST Case Fan",
+              "_id": "8dd687f6-f89c-4320-ae70-fca688b31cc3"
+            },
+            {
+              "id": 118,
+              "name": "2x Arctic P12 PWM PST Case Fan",
+              "_id": "50a9a5df-06de-4d6c-aa67-b4618bdaf575"
+            }
+          ],
+          "subcategories": [],
+          "url": "/aesthetics/additional-fan-case/"
+        },
+        {
+          "description": "",
+          "id": 26,
+          "imageUrl": "",
+          "name": "Case",
+          "products": [
+            {
+              "id": 131,
+              "name": "Daylight",
+              "_id": "8dd687f6-f89c-4320-ae7b31cc3"
+            },
+            {
+              "id": 198,
+              "name": "Phaneteks - Black",
+              "_id": "50a9a5dfc-aa67-b4618bdaf575"
+            },
+            {
+              "id": 8,
+              "name": "Niteride",
+              "_id": "502##5a9a5dfc-aa67-b4618bdaf575"
+            }
+          ],
+          "subcategories": [],
+          "url": "/aesthetics/case/"
+        }
+      ],
+      "_id": "ef8ff2bb-f012-45da-916f-d48cd1a75966"
+    },
+    {
+      "imageUrl": "",
+      "name": "dummy categories 1",
+      "products": [],
+      "subcategories": [
+        {
+          "description": "",
+          "id": 271,
+          "imageUrl": "",
+          "name": "Additional Fan Case subcategories1",
+          "products": [
+            {
+              "id": 1191,
+              "name": "Dell1",
+              "_id": "8dd687f6-f89c-4320-ae70-fca688b31cc31"
+            },
+            {
+              "id": 1182,
+              "name": "hp2",
+              "_id": "50a9a5df-06de-4d6c-aa67-b4618bdaf5752"
+            }
+          ],
+          "subcategories": [],
+          "url": "/aesthetics/additional-fan-case/"
+        },
+        {
+          "description": "",
+          "id": 262,
+          "imageUrl": "",
+          "name": "Case 1",
+          "products": [
+            {
+              "id": 13111,
+              "name": "lenovo",
+              "_id": "8dd687f6-f89c-4320-ae7b31cc31"
+            },
+            {
+              "id": 19822,
+              "name": "Phaneteks - Black 123",
+              "_id": "50a9a5dfc-aa67-b4618bdaf5752"
+            },
+            {
+              "id": 833,
+              "name": "Niteride123",
+              "_id": "502##5a9a5dfc-aa67-b4618bdaf5753"
+            }
+          ],
+          "subcategories": [],
+          "url": "/aesthetics/case/"
+        }
+      ],
+      "_id": "ef8ff2bb-f012-45da-916f-d48cd1a75966278"
+    },
+    {
+      "imageUrl": "",
+      "name": "dummy categories 2",
+      "products": [],
+      "subcategories": [
+        {
+          "description": "",
+          "id": 27131,
+          "imageUrl": "",
+          "name": "Additional Fan Case subcategories 2",
+          "products": [
+            {
+              "id": 119131,
+              "name": "macbook1",
+              "_id": "8dd687f6-f89c-4320-ae70-fca688b31cc3131"
+            },
+            {
+              "id": 118232,
+              "name": "acer2",
+              "_id": "50a9a5df-06de-4d6c-aa67-b4618bdaf575232"
+            }
+          ],
+          "subcategories": [],
+          "url": "/aesthetics/additional-fan-case/"
+        },
+        {
+          "description": "",
+          "id": 26278,
+          "imageUrl": "",
+          "name": "Case 2",
+          "products": [
+            {
+              "id": 1311134,
+              "name": "lenovo331",
+              "_id": "8dd687f6-f89c-4320-ae7b31cc3131"
+            },
+            {
+              "id": 1982235,
+              "name": "desktop1",
+              "_id": "50a9a5dfc-aa67-b4618bdaf575232"
+            },
+            {
+              "id": 83336,
+              "name": "Niteride12333",
+              "_id": "502##5a9a5dfc-aa67-b4618bdaf575333"
+            }
+          ],
+          "subcategories": [],
+          "url": "/aesthetics/case/"
+        }
+      ],
+      "_id": "ef8ff2bb-f012-45da-916f-d48cd1a75966278311"
+    }
+  ]
+}
